@@ -51,6 +51,7 @@
                     { title: "Customer", to: "/customer" },
                     { title: "Promo", to: "/promo" },
                     { title: "Transaksi", to: "/transaksi" },
+                    { title: "Jadwal", to: "/detailjadwal" },
                 ],
             };
         },    

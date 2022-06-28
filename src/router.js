@@ -74,6 +74,18 @@ const router = new VueRouter({
                     meta: { title: 'Transaksi' },
                     component: importComponent("DataMaster/Transaksis"),
                 },
+                {
+                    path: "/jadwalshift",
+                    name: "Jadwalshifts",
+                    meta: { title: 'Jadwalshift' },
+                    component: importComponent("DataMaster/Jadwalshifts"),
+                },
+                {
+                    path: "/detailjadwal",
+                    name: "Detailjadwals",
+                    meta: { title: 'Detailjadwal' },
+                    component: importComponent("DataMaster/Detailjadwals"),
+                },
             ],
         },
         {
